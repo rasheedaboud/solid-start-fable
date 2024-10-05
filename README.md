@@ -2,6 +2,12 @@
 
 Everything you need to build a Solid project, powered by [`solid-start`](https://start.solidjs.com) and [`fable`](https://fable.io/).
 
+
+## Why F#?
+F# adds real type safety and functional programming capabilities to JavaScript, making your SolidJS projects safer and more robust. By using Fable, F# can be transpiled to JavaScript, allowing you to leverage the powerful type system and immutable data structures of F# while still running your code in a JavaScript environment. This approach significantly reduces runtime errors and provides a more reliable development experience compared to traditional JavaScript or TypeScript solutions.
+
+With F#, you also gain features like pattern matching, discriminated unions, and concise syntax, which improve both the expressiveness and maintainability of your code. Combining SolidJS with F# ensures that you get the best of both worlds—an efficient reactive UI framework with the safety and elegance of functional programming.
+
 ## Getting Started
 
 ### Prerequisites
