@@ -1,0 +1,34 @@
+{
+  "name": "solid-start-fable",
+  "type": "module",
+  "scripts": {
+    "fable": "dotnet tool restore && dotnet fable watch src -e .jsx",
+    "fable:watch": "dotnet fable watch src -e .jsx",
+    "fable:build": "dotnet fable src -e .jsx",
+    "dev": "npm-run-all --parallel fable:watch dev:solid",
+    "dev:solid": "vinxi dev",
+    "build": "npm run fable:build && vinxi build",
+    "start": "vinxi start",
+    "version": "vinxi version"
+  },
+  "dependencies": {
+    "@solidjs/meta": "^0.29.4",
+    "@solidjs/router": "^0.14.7",
+    "@solidjs/start": "^1.0.8",
+    "fable-core": "^0.7.30",
+    "solid-js": "^1.9.1",
+    "vinxi": "^0.4.3"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "daisyui": "^4.12.12",
+    "fable-compiler": "^2.13.0",
+    "install": "^0.13.0",
+    "npm-run-all": "^4.1.5",
+    "postcss": "^8.4.47",
+    "tailwindcss": "^3.4.13"
+  }
+}
